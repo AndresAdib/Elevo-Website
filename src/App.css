@@ -1,0 +1,23 @@
+#root {
+  width: 200%;
+}
+
+#header{
+  background-color: azure;
+  height: 100vh;
+  width: 100%;
+  display: flex;
+  justify-content: left;
+  align-items: center;
+}
+
+.contain{
+  
+}
+
+.title{
+  color: orange
+}
+
+
+
