@@ -12,7 +12,7 @@ export const Header = () => {
       </div>
 
       <div className='header-title2' data-aos="slide-right">
-        <h2>Strategic Counsel for the<br />Modern Business</h2>
+        <h2>Strategic Counsel for<br /><span className='growing'>Growing Companies</span></h2>
       </div>
       
 

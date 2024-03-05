@@ -34,7 +34,7 @@ export const Contact = () => {
                     <BsTelephone />
                     </div>
                     <div className='information'>
-                        <span>216-555-1000</span>
+                        <span>440-522-0599</span>
                     </div>
                 </div>
                 <div className='contact-info'>
@@ -42,7 +42,7 @@ export const Contact = () => {
                         <FiMapPin />
                     </div>
                     <div className='information'>
-                        <span>Cleveland, OH</span>
+                        <span>Cleveland, Ohio</span>
                     </div>
                 </div>
             </div>

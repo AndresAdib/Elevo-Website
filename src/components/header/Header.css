@@ -46,6 +46,11 @@
   border-radius: 60px;
   perspective: 800px;
 }
+
+.growing {
+  padding-left: 100px;
+  margin-right: 20px;
+}
   
 .header-title2 h2{
   margin: 7px 0 7px 0;

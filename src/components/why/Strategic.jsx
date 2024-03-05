@@ -11,7 +11,7 @@ export const Strategic = () => {
         <div className='process-box'>
           <div className='why-conteiner' data-aos="fade-down">
             <h5>At ELEVO...</h5> 
-            <p>we specialize in providing top-tier general counsel
+            <p>We specialize in providing top-tier general counsel
             and business advisory services
             tailored to the unique needs of
             your company. Delivering
@@ -32,12 +32,12 @@ export const Strategic = () => {
         <div className='process-box'>
           <div className='why-conteiner2' data-aos="fade-down">
             <h5>We aren't <br />just legal experts…</h5> 
-            <p>we are also entrepreneurs,
+            <p>We are also entrepreneurs,
             business owners and strategists.
-            So, we get it. A client-centric 
+            So, we get it. Our's is a client-centric 
             approach and innovative business model
             that is changing the game in legal
-            services for growing companies.</p>
+            services.</p>
           </div>
         </div>
       </div>
@@ -45,8 +45,8 @@ export const Strategic = () => {
       <div className='question' data-aos="fade-up">
         <h4 >Why Strategic General Counsel? </h4>
         <div className='why-underline'></div>
-        <p>In the rapidly changing business landscape, agility and expertise are paramount. Our Strategic General Counsel
-        services provide your business <br />with the seasoned legal and business expertise it needs to navigate growth, risk, and opportunities  in these dynamic times. <span className='bold'>Why Choose ELEVO?</span></p>
+        <p>In a rapidly changing business landscape, agility and expertise are paramount. Our Strategic General Counsel
+        provide your business <br />with the seasoned legal and business expertise it needs to navigate growth, risk, and opportunities  in these dynamic times. <span className='bold'>Why Choose ELEVO?</span></p>
       </div>
 
       <div className='business'>

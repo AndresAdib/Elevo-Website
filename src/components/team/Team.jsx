@@ -14,11 +14,11 @@ export const Team = () => {
                     </div>
                     <div className="biografia">
                         <h2>Nick York</h2>
-                        <p>Nick is an Entrepreneur and Strategic Business Advisor with experience ranging from startups to Fortune
+                        <p>Nick is an Entrepreneur, Strategic Business Advisor and Attorney with experience ranging from startups to Fortune
                             500 companies, universities and national non-profit organizations. </p><p className='hover-text'>Prior to dedicating himself full-time to
                                 his entrepreneurial endeavors, Nick had a highly successful twenty-year legal practice with firms in
-                                Cleveland, Chicago and Columbus. As an Attorney, Nick has been an owner, investor, director and
-                                partner in several companies throughout his career.
+                                Cleveland, Chicago and Columbus. As an Entrepreneur, Nick has been an owner, investor, director and
+                                partner in several companies throughout his career with domestic and international operations.
                                 Nick’s motivation and passion over his 25-year career has been to inspire and help people and
                                 organizations maximize potential. He has played leadership roles in a number of community and nonprofit organizations focused on improving the lives and conditions of the communities around him.
                                 Nick has served as Vice Chair of the University of Akron Board of Trustees. He has been a champion of

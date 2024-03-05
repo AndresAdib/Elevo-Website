@@ -81,7 +81,7 @@ export const Form = () => {
                     />
                 </div>
                 <div className='form-info'>
-                    <label htmlFor="company">Company(optional)</label>
+                    <label htmlFor="company">Company (optional)</label>
                     <input
                     type="text"
                     name="company"
