@@ -1,0 +1,242 @@
+#contact {
+    display: grid;
+    place-items: center;
+    margin: 100px 0 0 0;
+    padding: 50px 0 50px 0;
+    background-color: #F6F6F6;
+}
+
+/*-----------BOOK NOW------------*/
+.book-container {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 60px 0 80px 0;
+    padding: 0 120px 0 120px;
+    background-color: #181818;
+    border-radius: 30px;
+}
+
+.book-box {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 70px;
+}
+
+.book-image {
+    display: flex;
+    justify-content: end;
+    position: relative;
+    margin-top: 38px;
+}
+
+.book-image img {
+    position: relative;
+    clip: rect(50px, 250px, 150px, 100px);
+    width: 500px;
+    height: 400px;
+    object-fit: cover;
+    border-radius: 20px;
+    z-index: 1;
+}
+
+.box-orange {
+    position: absolute;
+    width: 250px;
+    height: 107px;
+    right: 40px;
+    top: -108px;
+    background-color: #DE642E;
+}
+
+.box-orange2 {
+    position: absolute;
+    width: 150px;
+    height: 150px;
+    right: 390px;
+    top: -30px;
+    background-color: #DE642E;
+    border-radius: 15px;
+}
+
+.book-text {
+    margin-right: 100px;
+}
+
+.line-color {
+    background-color: #DE642E;
+    width: 180px;
+    height: 5px;
+}
+
+.book-text h3 {
+    font-family: 'BebasNeue';
+    text-align: center;
+    font-size: 16px;
+    font-weight: 400;
+    color: #FFFFFF;
+    background-color: #DE642E;
+    width: 25%;
+    border-radius: 20px;
+    letter-spacing: 3px;
+    margin: 0;
+}
+
+.book-text h4 {
+    font-family: "Montserrat", sans-serif;
+    font-size: 30px;
+    font-weight: 700;
+    color: #FFFFFF;
+    margin: 10px 0 30px 0;
+}
+
+.book-text p {
+    font-size: 25px;
+    font-weight: 400;
+    color: #FFFFFF;
+    margin: 0 0 25px 90px;
+}
+
+.button-cell button{
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 28px;
+    color: #0D0D0D;
+    background-color: #FFCB85;
+    border-radius: 42px;
+    border: 0;
+    padding: 16px 21px 16px 21px;
+}
+
+.button-cell button:hover {
+    transform: scale(1.1);
+    transition: 0.3s;
+}
+
+.button-cell button:not(:hover) {
+    transition: 0.3s;
+}
+
+
+/*-----------CONTACT------------*/
+.contact-title {
+    font-family: 'Antonio Bold';
+    text-align: center;
+    font-size: 25px;
+    font-weight: 400;
+    color: #FFFFFF;
+    background-color: #DE642E;
+    border-radius: 20px;
+    letter-spacing: 3px;
+    padding: 2px 20px 4px 20px;
+}
+
+.contact-section {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.contact-container {
+    margin-top: 160px;
+}
+
+.contact-container h3{
+    font-size: 45px;
+    font-weight: 700;
+    margin-top: 20px;
+}
+
+.contact-info {
+    display: flex;
+    align-items: center;
+    margin-bottom: 40px;
+}
+
+.contact-icon {
+    display: grid;
+    place-items: center;
+    color: #ffff;
+    background-color: #DE642E;
+    border-radius: 50%;
+    width: 48px;
+    height: 48px;
+}
+
+.information{
+    margin-left: 15px;
+}
+
+.information p {
+    font-size: 19px;
+    font-weight: 400;
+    margin-bottom: 5px;
+}
+
+.information span {
+    font-family: 'GillSansNova';
+    font-size: 20px;
+    font-weight: 700;
+    margin-top: 0;
+}
+
+.contact-form h3{
+    font-size: 30px;
+    margin-bottom: 0;
+    margin-top: 0;
+    margin-left: 280px;
+}
+
+.contact-form p {
+    font-family: 'GillSansNova';
+    font-size: 25px;
+    font-size: 600;
+    margin-top: 0;
+    margin-left: 280px;
+}
+
+@media only screen and (max-width: 768px) {
+    #contact {
+        
+    }
+    .book-box {
+        display: grid;
+        place-items: center;
+        margin: 0;
+        padding: 0;       
+    }
+
+    .book-text {
+        margin: 0;
+    }
+
+    .book-text h4{
+        margin: 0;
+    }
+
+    .book-text p{
+        margin: 0;
+    }
+
+    .book-container {
+        display: grid;
+        place-items: center;
+        padding: 20px; 
+    }
+
+    .box-orange,
+    .box-orange2 {
+        display: none; /* Oculta los elementos adicionales para dispositivos más pequeños */
+    }
+
+    .contact-section {
+    }
+
+    .contact-container {
+        margin: 0%;
+    }
+
+    .contact-form {
+        margin: 0 0 0 0;
+    }
+    
+}

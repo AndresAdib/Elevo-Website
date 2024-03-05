@@ -1,45 +1,104 @@
 import React from 'react';
 import "./Services.css";
 
+
 export const Services = () => {
   return (
     <section id='services'>
 
-        <h3>Our Services </h3>
-        <p>Our SGCs can assist strategic decision making across a wide array of business and legal issues, including: </p>
+      <h3 className='services-title' data-aos="zoom-in">SERVICES</h3>
 
-        <div>
-            <ul>
-                <li>Business Formation Strategy </li>
-                <li>Raising Capital </li>
-                <li>Intellectual Property </li>
-                <li>HR and Employment </li>
-                <li>Litigation Management and Resolution </li>
-                <li>Government Regulations and Compliance </li>
-                <li>Contracts and Commercial Transactions </li>
-                <li>Succession Planning </li>
-                <li>Joint Ventures and Acquisitions </li>
-                <li>Real Estate Development and Expansion </li>
-                <li>Technology Integration/Cyber-Security </li>
-                <li>International Transactions </li>
-            </ul>
+      <div className='approach-container'>
+        <p className='services-text' data-aos="fade-left">An innovative approach for entrepreneurs + growing companies with E<span className='elevo'>L</span>EVO.</p>
+        <div className='services-underline'></div>
+        <div className='approach-boxes'>
+          <div className='approach-box' data-aos="fade-up">
+            <h4>a SMART investment</h4>
+            <p>Invest in proactive legal expertise<br />
+            and strategic planning to safeguard<br />
+            your company's future. Dedicated<br />
+            to the principle of long-term<br />
+            relationships, our SGCs are not<br />
+            just advisors—they are your<br />
+            partners in strategic growth. </p>
+          </div>
+          <div className='approach-box' data-aos="fade-down">
+            <h4>CLIENT-CENTERED approach</h4>
+            <p>Our SGC services are not just a cost-<br />saving measure but an investment in<br />
+            your company's future stability and<br />
+            success. We spend the time to know<br />
+            your business with a vested interest in<br />
+            your success and setting the foundation<br />
+            for sustainable growth.</p>
+          </div>
+          <div className='approach-box' data-aos="fade-up">
+            <h4>CUSTOMIZED flexibility</h4>
+            <p>Whether it's a part-time interim<br />
+            solution or a long-term strategic<br />
+            partnership, our SGC services<br />
+            adapt to your evolving business<br />
+            landscape. Along with flexible<br />
+            pricing models to fit your budget<br />
+            now and into the future.</p>
+          </div>
+        </div>
+      </div>
+
+      <p className='plus' data-aos="slide-down">+</p>
+      <h3 className='issues-text' data-aos="slide-up">Our Strategic General Counsel assist with innovative decision-making<br />
+        across a wide array of business and legal issues, including:
+      </h3>
+
+      <div className='services-container'>
+        <div className='services-boxes'>
+            <div className='services-box2' data-aos="fade-right"> 
+              <h4 className='service2'>raising capital</h4>             
+            </div>
+            <div className='services-box' data-aos="slide-up">
+              <h4 className='service'>business formation <br />strategy</h4>              
+            </div>
+            <div className='services-box2' data-aos="fade-left">
+              <h4 className='service'>joint ventures <br />+ acquisitions</h4>              
+            </div>
         </div>
 
-        <h3>Client-Centered Approach</h3>
-        <p>Our SGC services are not just a cost-saving measure but an investment in your company's future stability and success. 
-        We spend the time to know your business with a vested interest in your success and setting the foundation for sustainable growth.</p>
+        <div className='services-boxes'>
+            <div className='services-box' data-aos="fade-right">
+              <h4 className='service2'>Intellectual property</h4>              
+            </div>
+            <div className='services-box2' data-aos="slide-up">
+              <h4 className='service'>contracts + commercial <br />transactions</h4>             
+            </div>
+            <div className='services-box' data-aos="fade-left">
+              <h4 className='service2'>succession planning</h4>              
+            </div>
+        </div>
 
-        <h3>Customized Flexibility</h3>
-        <p>Whether it's a part-time interim solution or a long-term strategic partnership, 
-        our SGC services adapt to your evolving business landscape. Along with flexible pricing models to fit your budget now and into the future.</p>
+        <div className='services-boxes'>
+            <div className='services-box2' data-aos="fade-right">
+              <h4 className='service2'>hr + employment</h4>             
+            </div>
+            <div className='services-box' data-aos="slide-up">
+              <h4 className='service'>government regulations<br />+ compliance</h4>              
+            </div>
+            <div className='services-box2' data-aos="fade-left">
+              <h4 className='service'>technology integration <br />+ cyber security</h4>
+            </div>
+        </div>
 
-        <h3>A Smart Investment</h3>
-        <p>Invest in proactive legal expertise and strategic planning to safeguard your company's future. 
-        Dedicated to the principle of long-term relationships, our SGCs are not just advisors—they are your partners in strategic growth. </p>
+        <div className='services-boxes'>
+            <div className='services-box' data-aos="fade-right">  
+              <h4 className='service'>international <br />transactions</h4>            
+            </div>
+            <div className='services-box2' data-aos="slide-up">
+              <h4 className='service'>litigation management <br />+ resolution</h4>             
+            </div>
+            <div className='services-box' data-aos="fade-left">
+              <h4 className='service'>real estate <br />development + expansion</h4>             
+            </div>
+        </div>
 
-        <h3>Ready to Elevate Your Legal Strategy and Maximize Your Potential? </h3>
-        <p>Connect with us to discover how Elevo can become an integral part of your business's success story. </p>
-        <button>Contact Us</button>
+      </div>
 
     </section>
   )

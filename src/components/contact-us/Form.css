@@ -1,0 +1,52 @@
+#form {
+    margin-left: 17rem;   
+}
+
+.form-container {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.form-info {
+    display: grid;
+    margin: 20px 25px 0 0;
+}
+
+.form-info label{
+    font-family: 'GillSansNova';
+    font-size: 20px;
+    font-weight: 400;
+}
+
+.form-info input{
+    background-color: #ffff;
+    border-radius: 54px;
+    border: 1px solid #C1C1C1;
+    padding: 22px 33px 22px 33px;
+    gap: 10px;
+}
+
+.form-info textarea{
+    background-color: #ffff;
+    border-radius: 22px;
+    border: 1px solid #C1C1C1;
+    padding: 22px 33px 111px 33px;
+    gap: 10px;
+}
+
+form button {
+    font-family: 'Antonio Bold';
+    font-size: 25px;
+    font-weight: 700;
+    color: #ffff;
+    background-color: #DE642E;
+    border-radius: 42px;
+    border: 0;
+    padding: 15px 24px 15px 24px;
+    margin-top: 25px;
+}
+
+@media only screen and (max-width: 768px) {
+
+}
+

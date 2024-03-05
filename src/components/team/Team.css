@@ -1,0 +1,178 @@
+#prueba {
+    display: grid;
+    place-items: center;
+    margin-bottom: 170px;
+}
+
+.team-title {
+    font-family: 'Antonio Bold';
+    text-align: center;
+    font-size: 25px;
+    font-weight: 400;
+    color: #FFFFFF;
+    background-color: #DE642E;
+    border-radius: 20px;
+    letter-spacing: 3px;
+    margin-bottom: 50px;
+    padding: 3px 15px 7px 15px;
+}
+
+.leader-title {
+    font-family: "Montserrat", sans-serif;
+    text-align: center;
+    font-size: 25px;
+    font-weight: 600;
+    color: #FFFFFF;
+    background-color: #DE642E;
+    border-radius: 20px 20px 0 0;
+    letter-spacing: 3px;
+    margin-bottom:0;
+    padding: 3px 15px 8px 15px;
+}
+
+.container_cards {
+    margin: auto;
+    padding: 120px 0 230px 0;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center; 
+    border-radius: 25px;
+    border-top: 5px solid #DE642E;
+    border-bottom: 5px solid #DE642E;
+    border-left: 5px solid #EDEDED;
+    border-right: 5px solid #EDEDED;
+}
+
+.card {
+    width: 470px;
+    margin: 30px;
+    transition: all 300ms;
+}
+
+.card:hover {
+    width: 750px;
+}
+
+.card .cover {
+    width: 100%;
+    height: 250px;
+    position: relative;
+    overflow: hidden;
+}
+
+.card .cover img {
+    width: 250px;
+    display: block;
+    margin: auto;
+    position: relative;
+    top: 40px;
+    z-index: 1;
+    filter: drop-shadow(5px 15px 4px rgba(0,0,0.5));
+    transition: all 400ms;
+}
+
+.card:hover .cover img {
+    top: 0;
+    filter: none;
+}
+
+.card .img_back {
+    width: 100%;
+    height: 200px;
+    position: absolute;
+    bottom: -80px;
+    left: 0;
+    background-size: cover;
+    border-radius: 20px;
+    transition: all 300ms;
+}
+
+.card:nth-of-type(1) .img_back {
+    background-image: url(/src/assets/fondo-img.avif);
+    filter: grayscale(100%) drop-shadow(4px 4px 4px #EDEDED);
+}
+
+.card:nth-of-type(2) .img_back {
+    background-image: url(/src/assets/fondo-img.avif);
+    filter: grayscale(100%) drop-shadow(4px 4px 4px #EDEDED);
+}
+
+.card:nth-of-type(3) .img_back {
+    background-image: url(/src/assets/fondo-img.avif);
+    filter: grayscale(100%) drop-shadow(4px 4px 4px #EDEDED);
+}
+
+.card:hover .img_back {
+    bottom: -40px;
+}
+
+.card .biografia {
+    background: white;
+    margin-top: -10px;
+    padding: 20px;
+    border: 2px solid #EDEDED;
+    border-radius: 0 0 20px 20px;
+    transition: all 300ms;
+}
+
+.card:hover .biografia {
+    padding: 40px;
+    background-color: #EDEDED;
+    border: 1px solid #DE642E;
+}
+
+.card .biografia h2 {
+    font-family: "Montserrat", sans-serif;
+    font-size: 23px;
+    text-align: center;
+    margin-top: 10px;    
+}
+
+.card:hover .biografia h2 {
+    text-align: center;
+    text-decoration: underline #DE642E;
+}
+
+.card .biografia p {
+    font-size: 17px;
+    margin-top: 10px;
+    margin-bottom: 0;    
+}
+
+.card:hover .biografia p {
+    font-size: 22px;
+    text-align: left;
+    line-height: 30px;
+    font-weight: 400;
+}
+
+.hover-text {
+    display: none;
+    transition: all 300ms;
+}
+
+.card:hover .hover-text {
+    display: block;
+    margin-top: 0;
+}
+
+
+@media only screen and (max-width: 768px) {
+    .container_cards {
+        width: 40%;
+        padding: 20px; 
+    }
+
+    .card {
+        width: calc(50% - 20px);  
+        margin: 10px; 
+    }
+}
+
+/* Media query para dispositivos aún más pequeños */
+
+@media only screen and (max-width: 480px) {
+    .card {
+        width: 100%; 
+    }
+}
