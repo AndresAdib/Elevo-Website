@@ -1,4 +1,5 @@
 import React from 'react';
+import { Outlet, Link } from "react-router-dom";
 import "./Footer.css";
 
 export const Footer = () => {
@@ -35,7 +36,7 @@ export const Footer = () => {
       </div>
 
       <div className='footer-text'>
-        <p>© ELEVO ADVISORS, LLC. All rights reserved | Terms of Service | Privacy Policy</p>
+        <p>© ELEVO ADVISORS, LLC. All rights reserved | <a href="/terms" target="_blank" rel="noopener noreferrer">Terms of Service</a> | Privacy Policy</p>
       </div>
 
     </section>
