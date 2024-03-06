@@ -2,7 +2,7 @@
 
 @font-face{
   font-family: 'BebasNeue';
-  src: url(/dist/assets/BebasNeue-Regular-9gjjU8Dt.ttf) format('truetype');
+  src: url(/src/assets/BebasNeue-Regular-9gjjU8Dt.ttf) format('truetype');
 }
 
 @font-face{
@@ -22,17 +22,17 @@
 
 @font-face{
   font-family: 'Antonio Semibold';
-  src: url(/dist/assets/Antonio-SemiBold-vzf33WJH.ttf) format('truetype');
+  src: url(/src/assets/Antonio-SemiBold-vzf33WJH.ttf) format('truetype');
 }
 
 @font-face{
   font-family: 'Antonio Bold';
-  src: url(/dist/assets/Antonio-Bold-Q3432z-V.ttf) format('truetype');
+  src: url(/src/assets/Antonio-Bold-Q3432z-V.ttf) format('truetype');
 }
 
 @font-face{
   font-family: 'GillSansNova';
-  src: url(/dist/assets/gillsansnova_book-Bx_7qlRa.ttf) format('truetype');
+  src: url(/src/assets/gillsansnova_book-Bx_7qlRa.ttf) format('truetype');
 }
 
 * {
