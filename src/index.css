@@ -32,7 +32,7 @@
 
 @font-face{
   font-family: 'GillSansNova';
-  src: url(/src/fonts/gillsansnova.ttf) format('truetype');
+  src: url(/src/fonts/gillsansnova_book.ttf) format('truetype');
 }
 
 * {
