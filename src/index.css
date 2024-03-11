@@ -36,17 +36,13 @@
 }
 
 * {
-  box-sizing: border-box;
+  box-sizing: inherit;
 }
 
 body {
-  margin: 0 auto;
-  padding: 0;
-  width: 100%;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  flex-wrap: wrap;
+  margin: 0 ;
+  padding: 0; 
+  box-sizing: border-box;
 }
 
 p {
@@ -65,5 +61,4 @@ h5 {
   * {
     box-sizing: border-box;
   }
- 
 }

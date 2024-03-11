@@ -1,5 +1,8 @@
 #header { 
-  display: grid;
+  display: flex;
+ flex-wrap: wrap;
+ flex-direction: column;
+ gap: 120px;
   place-items: center;
     height: 54rem;
     background-image: url('/src/assets/header.jpg');
@@ -16,7 +19,7 @@
   font-size: 45px;
   padding: 0;
   border-radius: 80px;
-  margin: 0 900px 300px 0;
+  margin: 0 0 300px 0;
 } 
 
 .letter {
@@ -29,18 +32,30 @@
 .header-title h1 {
   color: #EDEDED;
   text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
-  margin: 15px;
+}
+
+.header-container {
+  display: flex;
+  justify-content: flex-start;
+  width: 90%;
+}
+
+.header-container2 {
+  display: flex;
+  justify-content: flex-end;
+  width: 90%;
 }
 
 .header-title2 {
+  display: flex;
   text-align: center;
   font-family: "Montserrat";
   font-optical-sizing: auto;
   font-weight: 100;
-  font-size: 40px;
+  font-size: 35px;
   color: #ffff;
   text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
-  margin-left: 900px;
+  gap: 100px;
   padding: 0 30px 0 30px;
   background-color: #DE642E;
   border-radius: 60px;
@@ -59,8 +74,8 @@
 /* Media queries for responsiveness */
 @media screen and (max-width: 768px) {
   #header{
-    margin: 0%;
-    padding: 0;
+    margin: auto;
+    height: auto;
   }
   
   .header-title {
@@ -68,13 +83,61 @@
     font-size: 26px; 
     margin: 0;
     padding: 0;
-    width: 40%;
+
+  }
+
+  .growing {
+    margin: 0;
+    padding: 0;
+  }
+
+}
+
+@media screen and (max-width: 325px) {
+}
+
+@media screen and (max-width: 1740px) {
+  #header{
+    margin: auto;
+    height: auto;
+  }
+  
+  .header-title {
+    text-align: center;
+    font-size: 30px; 
+  }
+
+  .growing {
+    margin: 0;
+    padding: 0;
   }
 
   .header-title2 {
     font-size: 24px; 
+    margin-bottom: 30px;
+  }
+}
+
+@media screen and (max-width: 1040px) {
+  #header{
+    margin: auto;
+    height: auto;
+  }
+  
+  .header-title {
+    text-align: center;
+    font-size: 30px; 
+    margin: 0 300px 300px 0;
+  }
+
+  .growing {
     margin: 0;
-    padding: 15px; 
-    width: 35%;
+    padding: 0;
+  }
+
+  .header-title2 {
+    font-size: 24px; 
+    margin-bottom: 30px;
+    margin-left: 240px;
   }
 }

@@ -1,6 +1,5 @@
 #navbar {
-    background-color: #2C2A2AE8;
-    width: 100%;
+    background-color: #2C2A2AE8; 
     height: 15%;
     display: grid;
     place-items: center;
@@ -9,8 +8,8 @@
   .nav-container {
     display: flex;
     justify-content: space-between;
-    align-items: center;
-    width: 70%;
+    align-items: center; 
+    gap: 700px;
   }
   
   .nav-container img {
@@ -27,6 +26,7 @@
     border-bottom: 2px solid #DE642E;
     display: flex;
     justify-content: space-around;
+    gap: 30px;
     width: 40%; 
     margin: 0 ; 
   }
@@ -52,6 +52,42 @@
     .menu {
       display: none;
       width: 100%;
+      margin: 10px 0;
+    }
+  
+    .menu a {
+      padding: 5px;
+    }
+  }
+
+  @media (max-width: 1740px) {
+    .nav-container {
+      justify-content: center;
+      padding: 0;
+      width: 100%;
+      gap: 500px;
+    }
+
+    .menu {
+      width: 20%;
+      margin: 10px 0;
+    }
+  
+    .menu a {
+      padding: 5px;
+    }
+  }
+
+  @media (max-width: 1040px) {
+    .nav-container {
+      justify-content: center;
+      padding: 0;
+      width: 100%;
+      gap: 100px;
+    }
+
+    .menu {
+      width: 20%;
       margin: 10px 0;
     }
   

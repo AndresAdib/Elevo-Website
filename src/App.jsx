@@ -1,5 +1,4 @@
 import './App.css';
-import { useState } from 'react';
 import { Strategic } from './components/why/strategic';
 import { Services } from './components/services/Services';
 import { Footer } from './components/footer/Footer';
