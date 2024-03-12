@@ -9,7 +9,7 @@ export const Services = () => {
       <h3 className='services-title' data-aos="zoom-in">SERVICES</h3>
 
       <div className='approach-container'>
-        <p className='services-text' data-aos="fade-left">An innovative approach for entrepreneurs + growing companies with E<span className='elevo'>L</span>EVO.</p>
+        <p className='services-text' data-aos="fade-down">An innovative approach for entrepreneurs + growing companies with E<span className='elevo'>L</span>EVO.</p>
         <div className='services-underline'></div>
         <div className='approach-boxes'>
           <div className='approach-box' data-aos="fade-up">
@@ -51,49 +51,49 @@ export const Services = () => {
 
       <div className='services-container'>
         <div className='services-boxes'>
-            <div className='services-box2' data-aos="fade-right"> 
+            <div className='services-box2' data-aos="fade-down"> 
               <h4 className='service2'>raising capital</h4>             
             </div>
             <div className='services-box' data-aos="slide-up">
               <h4 className='service'>business formation <br />strategy</h4>              
             </div>
-            <div className='services-box2' data-aos="fade-left">
+            <div className='services-box2' data-aos="fade-down">
               <h4 className='service'>joint ventures <br />+ acquisitions</h4>              
             </div>
         </div>
 
         <div className='services-boxes'>
-            <div className='services-box' data-aos="fade-right">
+            <div className='services-box' data-aos="fade-down">
               <h4 className='service2'>Intellectual property</h4>              
             </div>
             <div className='services-box2' data-aos="slide-up">
               <h4 className='service'>contracts + commercial <br />transactions</h4>             
             </div>
-            <div className='services-box' data-aos="fade-left">
+            <div className='services-box' data-aos="fade-down">
               <h4 className='service2'>succession planning</h4>              
             </div>
         </div>
 
         <div className='services-boxes'>
-            <div className='services-box2' data-aos="fade-right">
+            <div className='services-box2' data-aos="fade-down">
               <h4 className='service2'>hr + employment</h4>             
             </div>
             <div className='services-box' data-aos="slide-up">
               <h4 className='service'>government regulations<br />+ compliance</h4>              
             </div>
-            <div className='services-box2' data-aos="fade-left">
+            <div className='services-box2' data-aos="fade-down">
               <h4 className='service'>technology integration <br />+ cyber security</h4>
             </div>
         </div>
 
         <div className='services-boxes'>
-            <div className='services-box' data-aos="fade-right">  
+            <div className='services-box' data-aos="fade-down">  
               <h4 className='service'>international <br />transactions</h4>            
             </div>
             <div className='services-box2' data-aos="slide-up">
               <h4 className='service'>litigation management <br />+ resolution</h4>             
             </div>
-            <div className='services-box' data-aos="fade-left">
+            <div className='services-box' data-aos="fade-down">
               <h4 className='service'>real estate <br />development + expansion</h4>             
             </div>
         </div>

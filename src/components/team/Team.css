@@ -134,7 +134,7 @@
 }
 
 .card .biografia p {
-    font-size: 17px;
+    font-size: 18px;
     margin-top: 10px;
     margin-bottom: 0;    
 }
@@ -157,21 +157,89 @@
 }
 
 
-@media only screen and (max-width: 768px) {
+@media only screen and (max-width: 1440px) {
+    .team-title {
+        font-size: 20px;
+    }
+
+    .leader-title{
+        font-size: 20px;
+    }
+
     .container_cards {
-        padding: 20px; 
+        padding: 120px 0 230px 0;
     }
 
     .card {
-        width: calc(50% - 20px);  
+        width: calc(50% - 280px);  
         margin: 10px; 
+    }
+
+    .card .biografia h2 {
+        font-size: 20px;  
+    }
+
+    .card .biografia p {
+        font-size: 16px;
+    }
+
+    .card:hover .biografia p {
+        font-size: 17px;
     }
 }
 
-/* Media query para dispositivos aún más pequeños */
 
-@media only screen and (max-width: 480px) {
+@media only screen and (max-width: 1024px) {
+    .team-title {
+        font-size: 20px;
+    }
+
+    .leader-title{
+        font-size: 20px;
+    }
+
+    .container_cards {
+        padding: 50px 0 120px 0;
+    }
+
     .card {
-        width: 100%; 
+        width: calc(50% - 10px);  
+        margin: 10px; 
+    }
+
+    .card .biografia h2 {
+        font-size: 20px;  
+    }
+
+    .card .biografia p {
+        font-size: 16px;
+    }
+
+    .card:hover .biografia p {
+        font-size: 17px;
+    }
+}
+
+
+
+@media only screen and (max-width: 425px) {
+    .team-title {
+        font-size: 16px;
+    }
+    .card {
+        width: calc(90% - 10px);  
+        margin: 10px; 
+    }
+
+    .card .biografia h2 {
+        font-size: 18px;  
+    }
+
+    .card .biografia p {
+        font-size: 15px;
+    }
+
+    .card:hover .biografia p {
+        font-size: 16px;
     }
 }

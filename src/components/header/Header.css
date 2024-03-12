@@ -72,72 +72,100 @@
 }
 
 /* Media queries for responsiveness */
+@media screen and (max-width: 1440px) {
+  #header {
+    height: 43rem;
+    gap: 10px;
+  }
+
+  .header-title {
+    font-size: 32px; 
+  }
+
+  .header-title2 {
+    font-size: 28px; 
+    gap: 0px;
+    margin-bottom: 0;
+  }
+}
+
+@media screen and (max-width: 1024px) {
+  #header {
+    height: 42rem;
+    gap: 50px;
+  }
+
+  .header-title {
+    font-size: 25px; 
+  }
+
+  .header-title2 {
+    font-size: 25px; 
+    gap: 0px;
+    margin-bottom: 0;
+  }
+}
+
 @media screen and (max-width: 768px) {
   #header{
-    margin: auto;
-    height: auto;
+    height: 38rem;
+    gap: 250px;
   }
   
   .header-title {
     text-align: center;
-    font-size: 26px; 
+    font-size: 25px; 
     margin: 0;
     padding: 0;
+    width: 100%;
 
-  }
-
-  .growing {
-    margin: 0;
-    padding: 0;
-  }
-
-}
-
-@media screen and (max-width: 325px) {
-}
-
-@media screen and (max-width: 1740px) {
-  #header{
-    margin: auto;
-    height: auto;
-  }
-  
-  .header-title {
-    text-align: center;
-    font-size: 30px; 
-  }
-
-  .growing {
-    margin: 0;
-    padding: 0;
   }
 
   .header-title2 {
-    font-size: 24px; 
-    margin-bottom: 30px;
+    font-size: 20px; 
+    gap: 0px;
+    margin-bottom: 0;
   }
-}
 
-@media screen and (max-width: 1040px) {
-  #header{
-    margin: auto;
-    height: auto;
-  }
-  
-  .header-title {
-    text-align: center;
-    font-size: 30px; 
-    margin: 0 300px 300px 0;
+  .header-container2 {
+    justify-content: center;
+    width: 100%;
   }
 
   .growing {
     margin: 0;
     padding: 0;
   }
+}
+
+@media screen and (max-width: 425px) {
+  #header{
+    height: 24rem;
+    gap: 150px;
+  }
+  
+  .header-title {
+    text-align: center;
+    font-size: 16px; 
+    margin: 0;
+    padding: 0;
+    width: 100%;
+
+  }
 
   .header-title2 {
-    font-size: 24px; 
-    margin-bottom: 30px;
-    margin-left: 240px;
+    font-size: 13px; 
+    gap: 0px;
+    margin-bottom: 0;
+  }
+
+  .header-container2 {
+    justify-content: center;
+    width: 100%;
+  }
+
+  .growing {
+    margin: 0;
+    padding: 0;
   }
 }

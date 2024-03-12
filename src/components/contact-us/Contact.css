@@ -184,20 +184,75 @@
     margin-left: 280px;
 }
 
-@media only screen and (max-width: 768px) {
-    #contact {
-       display: block;
-       
+
+@media only screen and (max-width: 1024px) {
+    .contact-section {
+        flex-direction: column;
     }
 
     .contact-title {
-        width: 50%;
-        margin-left: auto;
-        margin-right: auto;
+        font-size: 20px;
+    }
+
+    .book-text {
+        margin-right: 50px;
+    }
+
+    .book-text h4 {
+        font-size: 25px;
+    }
+
+    .book-text p {
+        font-size: 22px;
+        margin: 0 ;
+    }
+
+    .book-image img {
+    width: 500px;
+    height: 400px;
+    }
+
+    .contact-container {
+
+    }
+
+    .contact-container h3 {
+        text-align: center;
+        font-size: 38px;
+        margin-top: 0px;
+    }
+
+    .contact-form h3{
+        text-align: center;
+        font-size: 25px;
+        margin-left: 0;
+    }
+    
+    .contact-form p {
+        text-align: center;
+        font-size: 20px;
+        margin-left: 0px;
+    }
+}
+
+
+@media only screen and (max-width: 768px) {
+    #contact {
+       display: flex;
+       flex-direction: column;
+    }
+
+    .contact-title {
+      font-size: 18px; 
     }
 
     .book-container {
-        display: block;
+        margin: 60px 0 80px 0;
+        padding: 0 0px 0 0px;
+    } 
+
+    .book-text {
+        margin: 0;
     }
 
     .box-orange,
@@ -206,10 +261,12 @@
     }
 
     .book-image img {
-        
+        width: 400px;
+        height: 300px;
     }
 
     .contact-section {
+        
     }
 
     .contact-container {
@@ -232,22 +289,12 @@
     
 }
 
-@media only screen and (max-width: 1024px) {
-    .book-text {
-        margin-right: 50px;
-    }
-
+@media only screen and (max-width: 375px) {
     .book-text h4 {
-        font-size: 25px;
+        font-size: 20px;
     }
 
     .book-text p {
-        font-size: 22px;
-        margin: 0 ;
-    }
-
-    .book-image img {
-    width: 500px;
-    height: 400px;
+        font-size: 18px;
     }
 }

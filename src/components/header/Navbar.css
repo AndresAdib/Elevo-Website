@@ -42,6 +42,48 @@
   }
   
   /* Agrega media query para hacerlo responsive */
+  @media (max-width: 1440px) {
+    .nav-container {
+      justify-content: center;
+      padding: 0;
+      width: 100%;
+      gap: 400px;
+    }
+
+    .menu {
+      width: 20%;
+      margin: 10px 0;
+      font-size: 18px;
+    }
+  
+    .menu a {
+      padding: 5px;
+    }
+  }
+
+  @media (max-width: 1024px) {
+    .nav-container {
+      justify-content: center;
+      padding: 0;
+      width: 100%;
+      gap: 200px;
+    }
+
+    .nav-container img {
+      width: 180px;
+    }
+
+    .menu {
+      width: 20%;
+      margin: 10px 0;
+    }
+  
+    .menu a {
+      font-size: 18px;
+      padding: 1px;
+    }
+  }
+
   @media (max-width: 768px) {
     .nav-container {
       justify-content: center;
@@ -52,42 +94,6 @@
     .menu {
       display: none;
       width: 100%;
-      margin: 10px 0;
-    }
-  
-    .menu a {
-      padding: 5px;
-    }
-  }
-
-  @media (max-width: 1740px) {
-    .nav-container {
-      justify-content: center;
-      padding: 0;
-      width: 100%;
-      gap: 500px;
-    }
-
-    .menu {
-      width: 20%;
-      margin: 10px 0;
-    }
-  
-    .menu a {
-      padding: 5px;
-    }
-  }
-
-  @media (max-width: 1040px) {
-    .nav-container {
-      justify-content: center;
-      padding: 0;
-      width: 100%;
-      gap: 100px;
-    }
-
-    .menu {
-      width: 20%;
       margin: 10px 0;
     }
   

@@ -1,5 +1,6 @@
 #why {
-    display: grid;
+    display: flex;
+    flex-direction: column;
     place-items: center;
     margin: 50px 70px 20px 70px;
     border: 10px solid #F6F6F6;
@@ -78,13 +79,13 @@
 
 .why-conteiner {
     text-align: left;
-    margin-left: 200px;
+    margin-left: 150px;
     margin-right: 50px;
 }
 
 .why-conteiner2 {
     text-align: right;
-    margin-right: 200px;
+    margin-right: 150px;
     margin-left: 50px;
 }
 
@@ -187,206 +188,340 @@
     }
 }
 
-@media (max-width: 768px) {
-    #why{
-        margin: 0;
-        padding: 0;
-    }
-
-    .process {
-      display: grid;
-      place-items: center;
-      margin: 0;
-    }
-  
-    .why-conteiner,
-    .why-conteiner2 {
-        display: grid;
-        place-items: center;
-        text-align: center;
-        flex: 1;
-        margin: 0;
-        padding: 0;
-    }
-
-    .why-conteiner p {
-        
-    }
-
-    .why-conteiner2 p {
-        
-    }
-  
-    .process-box {
-      width: 80%;
-    }
-
-    .welcome {
-        margin: 0;
-        padding: 0;
-    }
-    
-    .welcome h2 {
-        text-align: center;
-        font-size: 22px;
-        margin-bottom: 0;
-        padding-left: 0;  
-    }
-    
-    .welcome h3 {
-        font-size: 20px;
-        margin-top: 0;
-        margin-left: 0;
-        padding-left: 0;
-    }
-
-    .image-process {
-        width: 300px;
-        height: 350px;
-    }
-
-    .why-underline {
-        margin: 0 0 10px 0;
-    }
-
-    .question {
-        display: grid;
-        place-items: center;
-        margin-top: 50px;
-    }
-
-    .question h4 {
-        font-size: 28px;
-    }
-
-    .question p {
-        text-align: left;
-        font-size: 20px;
-        margin-bottom: 40px;
-    }
-
-    .business {
-        display: grid;
-    }
-  
-    .business-contain {
-      flex-basis: 50%;
-    }
-
-    .business-contain h4{
-      margin-bottom: 10px;
-    }
-
-    .business-text {
-        width: 300px;
-        height: 210px;
-        font-size: 18px;
-        padding: 1px 35px 1px 35px;
-    }
-  }
-
- 
-@media (max-width: 1740px) {
-    #why {
-        display: block;
-    }
-
+@media (max-width: 1440px) { 
     .why-title {
-        width: 10%;
-        margin-left: auto;
-        margin-right: auto; 
-    }
-
-    .why-conteiner {
-        text-align: left;
-        margin-left: 50px;
-        margin-right: 30px;
-    }
-
-    .why-conteiner2 {
-        margin-left: 50px;
-        margin-right: 30px;
-    }
-
-    .business-contain {
-        margin-left: 10px;
-        margin-right: 10px;
-    }
-
-    .business-text {
-        width: 280px;
-        height: 300px;
         font-size: 20px;
-        padding: 1px 35px 1px 35px;
-    }
-}
-
-@media (max-width: 1024px) {
-    #why {
-        display: block;
-        margin: 50px 0px 20px 0px;
-    }
-
-    .why-title {
-        
-        margin-left: auto;
-        margin-right: auto; 
-    }
-
-    .why-conteiner {
-        text-align: left;
-        margin-left: 20px;
-        margin-right: 10px;
-    }
-
-    .why-conteiner2 {
-        margin-left: 20px;
-        margin-right: 10px;
-    }
-
-    .why-conteiner2 p{
-        font-size: 22px;
-        margin-left: 0;
-        margin-right: 0;
-    }
-
-    .why-conteiner p{
-        text-align: left;
-        font-size: 22px;
-        margin-left: 0;
-        margin-right: 0;
-    }
-
-    .why-conteiner h5{
-        font-size: 28px;
-    }
-
-    .why-conteiner2 h5{
-        font-size: 28px;
-    }
-
-    .welcome {
-        
-    }
-
-    .question p{
-        font-size: 24px;
     }
 
     .image-process {
         width: 350px;
-        height: 450px;
+        height: 500px; 
+    }
+
+    .why-conteiner {
+        margin-left: 40px;
+        margin-right: 10px;
+    }
+
+    .why-conteiner2 {
+        margin-left: 10px;
+        margin-right: 40px;
+    }
+
+    .why-conteiner h5{
+        font-size: 24px;
+    }
+
+    .why-conteiner p{
+        font-size: 20px;
+    }
+
+    .why-conteiner2 h5{
+        font-size: 24px;
+    }
+
+    .why-conteiner2 p{
+        font-size: 20px;
+    }
+
+    .welcome {
+        margin-left: -40px;
+        margin-right: -340px;
+        padding: 0 25px 0 25px;
+        margin-top: -50px;
+    }
+    
+    .welcome h2 {
+        font-size: 22px;
+    }
+    
+    .welcome h3 {
+        font-size: 22px;
+        margin-left: 50px;
+    }
+
+    .question h4{  
+        font-size: 30px;
+    }
+
+    .question p {
+        font-size: 24px;
     }
 
     .business-contain {
         margin-left: 10px;
-        margin-right: 10px;
+        margin-right: 0px;
     }
 
     .business-text {
         width: 280px;
-        height: 300px;
-        font-size: 20px;
-        padding: 1px 35px 1px 35px;
+        height: 240px;
+        font-size: 19px;
+        padding: 1px 25px 1px 25px;
+    }
+
+    .business-contain  h4 {
+        font-size: 25px;
+    }
+
+    .why-underline {
+        margin-left: 410px;
     }
 }
+
+@media (max-width: 1024px) { 
+    #why {
+        margin: 50px 20px 20px 20px;
+    }
+    
+    .why-title {
+        font-size: 18px;
+    }
+
+    .image-process {
+        width: 300px;
+        height: 450px; 
+    }
+
+    .why-conteiner {
+        margin-left: 10px;
+        margin-right: 10px;
+    }
+
+    .why-conteiner2 {
+        margin-left: 10px;
+        margin-right: 10px;
+    }
+
+    .why-conteiner h5{
+        font-size: 20px;
+    }
+
+    .why-conteiner p{
+        font-size: 16px;
+    }
+
+    .why-conteiner2 h5{
+        font-size: 20px;
+    }
+
+    .why-conteiner2 p{
+        font-size: 16px;
+    }
+
+    .welcome {
+        margin-left: -55px;
+        margin-right: -340px;
+        padding: 0 25px 0 25px;
+        margin-top: -40px;
+    }
+    
+    .welcome h2 {
+        font-size: 20px;
+    }
+    
+    .welcome h3 {
+        font-size: 20px;
+        margin-left: 40px;
+    }
+
+    .question h4{  
+        font-size: 27px;
+    }
+
+    .question p {
+        font-size: 20px;
+    }
+
+    .business-contain {
+        margin-left: 10px;
+        margin-right: 0px;
+    }
+
+    .business-text {
+        width: 280px;
+        height: 240px;
+        font-size: 19px;
+        padding: 1px 25px 1px 25px;
+    }
+
+    .business-contain  h4 {
+        font-size: 23px;
+    }
+
+    .why-underline {
+        margin-left: 230px;
+    }
+}
+
+@media (max-width: 768px) { 
+    #why {
+        margin: 50px 20px 20px 20px;
+    }
+
+    .why-title {
+        font-size: 18px;
+    }
+
+    .process {
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    .image-process {
+        width: 250px;
+        height: 400px; 
+    }
+
+    .why-conteiner {
+        margin-left: 10px;
+        margin-right: 10px;
+    }
+
+    .why-conteiner2 {
+        margin-left: 10px;
+        margin-right: 10px;
+    }
+
+    .why-conteiner h5{
+        text-align: center;
+        font-size: 20px;
+    }
+
+    .why-conteiner p{
+        font-size: 16px;
+    }
+
+    .why-conteiner2 h5{
+        text-align: center;
+        font-size: 20px;
+    }
+
+    .why-conteiner2 p{
+        font-size: 16px;
+    }
+
+    .welcome {
+        margin-left: -20px;
+        margin-right: -340px;
+        padding: 0 0px 0 0px;
+        margin-top: -40px;
+    }
+    
+    .welcome h2 {    
+        font-size: 18px;
+    }
+    
+    .welcome h3 {
+        font-size: 18px;
+        margin-left: 0px;
+    }
+
+    .question h4{  
+        font-size: 25px;
+    }
+
+    .question p {
+        font-size: 18px;
+    }
+
+    .business-contain {
+        margin-left: 10px;
+        margin-right: 0px;
+    }
+
+    .business-text {
+        width: 260px;
+        height: 240px;
+        font-size: 18px;
+        padding: 1px 25px 1px 25px;
+    }
+
+    .business-contain  h4 {
+        font-size: 22px;
+    }
+
+    .why-underline {
+        margin-left: 110px;
+    }
+}
+
+@media (max-width: 425px) { 
+    #why {
+        margin: 50px 0px 20px 0px;
+    }
+
+    .why-title {
+        font-size: 16px;
+    }
+
+    .image-process {
+        width: 100px;
+        height: 150px; 
+    }
+
+    .why-conteiner {
+        margin-left: 10px;
+        margin-right: 10px;
+    }
+
+    .why-conteiner2 {
+        margin-left: 10px;
+        margin-right: 10px;
+    }
+
+    .why-conteiner h5{
+        text-align: center;
+        font-size: 18px;
+    }
+
+    .why-conteiner p{
+        text-align: center;
+        font-size: 13.5px;
+    }
+
+    .why-conteiner2 h5{
+        text-align: center;
+        font-size: 18px;
+    }
+
+    .why-conteiner2 p{
+        text-align: center;
+        font-size: 13.5px;
+    }
+
+    .welcome {
+        display: none;
+    }
+
+    .question h4{  
+        font-size: 18px;
+    }
+
+    .question p {
+        font-size: 17px;
+    }
+
+    .business-contain {
+        margin-left: 0px;
+        margin-right: 0px;
+    }
+
+    .business-text {
+        text-align: center;
+        width: 180px;
+        height: 240px;
+        font-size: 16px;
+        padding: 1px 15px 1px 15px;
+    }
+
+    .business-contain  h4 {
+        font-size: 18px;
+    }
+
+    .why-underline {
+        width: 100%;
+        margin-left: 0;
+    }
+}
+   
