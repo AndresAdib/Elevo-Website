@@ -9,7 +9,7 @@ export const Services = () => {
       <h3 className='services-title' data-aos="zoom-in">SERVICES</h3>
 
       <div className='approach-container'>
-        <p className='services-text' data-aos="fade-down">An innovative approach for entrepreneurs + growing companies with E<span className='elevo'>L</span>EVO.</p>
+        <p className='services-text' data-aos="fade-down">An innovative approach for entrepreneurs + growing companies with ELEVO.</p>
         <div className='services-underline'></div>
         <div className='approach-boxes'>
           <div className='approach-box' data-aos="fade-up">

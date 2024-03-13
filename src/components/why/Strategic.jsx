@@ -23,7 +23,7 @@ export const Strategic = () => {
         <div className='process-box'>
           <div className='image-container'>
             <div className='welcome' data-aos="fade-in">
-              <h2>WELCOME to E<span className='elevo'>L</span>EVO</h2>
+              <h2>WELCOME to ELEVO</h2>
               <h3>Lawyers + Entrepreneurs </h3>
             </div>
             <img src='/src/assets/Strategic.jfif' className='image-process'/>

@@ -159,64 +159,126 @@
 
 @media only screen and (max-width: 1440px) {
     .team-title {
-        font-size: 20px;
+        font-size: 17px;
     }
 
     .leader-title{
-        font-size: 20px;
+        font-size: 17px;
     }
 
     .container_cards {
-        padding: 120px 0 230px 0;
+        padding: 0px 0 130px 0;
     }
 
     .card {
-        width: calc(50% - 280px);  
-        margin: 10px; 
+        width: 280px;
+        margin: 10px;
+    }
+
+    .card:hover {
+        width: 450px;
     }
 
     .card .biografia h2 {
-        font-size: 20px;  
+        font-size: 18px;  
     }
 
     .card .biografia p {
-        font-size: 16px;
+        font-size: 13px;
     }
 
     .card:hover .biografia p {
-        font-size: 17px;
+        font-size: 15px;
     }
+
+    .card .cover {
+        width: 100%;
+        height: 250px;
+    }
+
+    .card .img_back {
+        width: 100%;
+        height: 150px;
+        bottom: -80px;
+    }
+
+    .card .cover img {
+        width: 170px;
+        top: 110px;
+    }
+
+    .card:hover .cover img {
+        top: 90px;
+        filter: none;
+    }
+
+    .card .biografia {
+        margin-top: -10px;
+        padding: 10px;
+    }
+    
 }
 
 
 @media only screen and (max-width: 1024px) {
     .team-title {
-        font-size: 20px;
+        font-size: 13px;
     }
 
     .leader-title{
-        font-size: 20px;
+        font-size: 13px;
     }
 
     .container_cards {
-        padding: 50px 0 120px 0;
+        padding: 0px 0 130px 0;
     }
 
     .card {
-        width: calc(50% - 10px);  
-        margin: 10px; 
+        width: 210px;
+        margin: 10px;
+    }
+
+    .card:hover {
+        width: 450px;
     }
 
     .card .biografia h2 {
-        font-size: 20px;  
+        font-size: 14px;  
     }
 
     .card .biografia p {
-        font-size: 16px;
+        font-size: 9px;
     }
 
     .card:hover .biografia p {
-        font-size: 17px;
+        font-size: 10px;
+        line-height: 19px;
+    }
+
+    .card .cover {
+        width: 100%;
+        height: 250px;
+    }
+
+    .card .img_back {
+        width: 100%;
+        height: 115px;
+        bottom: -80px;
+    }
+
+    .card .cover img {
+        width: 130px;
+        top: 145px;
+    }
+
+    .card:hover .cover img {
+        top: 135px;
+        filter: none;
+    }
+
+    .card .biografia {
+        margin-top: -10px;
+        padding: 6px;
     }
 }
 

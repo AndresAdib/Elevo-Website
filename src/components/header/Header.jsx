@@ -8,7 +8,7 @@ export const Header = () => {
 
       <div className='header-container'>
         <div className='header-title' data-aos="slide-up">
-          <h1>Elevate your Business <br /><span className='text2'>with E<span className='letter'>L</span>EVO</span></h1>
+          <h1>Elevate your Business <br /><span className='text2'>with ELEVO</span></h1>
         </div>
       </div>
       <div className='header-container2'>

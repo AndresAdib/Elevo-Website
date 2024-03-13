@@ -47,47 +47,53 @@ form button {
 }
 
 
-@media only screen and (max-width: 1024px) {
-    #form {
-        margin: 0;
-    }
-
-    .form-container {
-        display: flex;
-        justify-content: center;
-    }
-    
-    .form-info {
-        display: grid;
-        place-items: center;
-        margin: 20px 40px 0 40px;
-    }
-    
+@media only screen and (max-width: 1440px) { 
     .form-info label{
-        font-family: 'GillSansNova';
-        font-size: 20px;
-        font-weight: 400;
+        font-size: 14px;
     }
     
     .form-info input{
         background-color: #ffff;
         border-radius: 54px;
         border: 1px solid #C1C1C1;
-        padding: 22px 33px 22px 33px;
+        padding: 18px 25px 18px 25px;
         gap: 10px;
     }
     
     .form-info textarea{
-        background-color: #ffff;
-        border-radius: 22px;
-        border: 1px solid #C1C1C1;
-        padding: 22px 33px 111px 33px;
+        padding: 22px 25px 25px 25px;
         gap: 10px;
     }
     
-    form  {
-        margin-left: auto;
-        margin-right: auto;
+    form button {
+        font-size: 18px;
+        padding: 10px 20px 10px 20px;
+        margin-top: 25px;
+    }
+}
+
+@media only screen and (max-width: 1024px) {
+    .form-info label{
+        font-size: 12px;
+    }
+    
+    .form-info input{
+        background-color: #ffff;
+        border-radius: 54px;
+        border: 1px solid #C1C1C1;
+        padding: 18px 0px 14px 0px;
+        gap: 5px;
+    }
+    
+    .form-info textarea{
+        padding: 15px 25px 15px 25px;
+        gap: 10px;
+    }
+    
+    form button {
+        font-size: 14px;
+        padding: 10px 10px 10px 10px;
+        margin-top: 25px;
     }
 }
 
@@ -109,7 +115,7 @@ form button {
     
     .form-info label{
         font-family: 'GillSansNova';
-        font-size: 20px;
+        font-size: 15px;
         font-weight: 400;
     }
     

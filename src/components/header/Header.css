@@ -4,7 +4,7 @@
  flex-direction: column;
  gap: 120px;
   place-items: center;
-    height: 54rem;
+    height: 43rem;
     background-image: url('/src/assets/header.jpg');
     background-size: cover;
     background-position: 20% 30%;
@@ -16,10 +16,10 @@
   font-family: "Montserrat";
   font-optical-sizing: auto;
   font-weight: 100;
-  font-size: 45px;
+  font-size: 35px;
   padding: 0;
   border-radius: 80px;
-  margin: 0 0 300px 0;
+  margin: 0 0 200px 0;
 } 
 
 .letter {
@@ -52,7 +52,7 @@
   font-family: "Montserrat";
   font-optical-sizing: auto;
   font-weight: 100;
-  font-size: 35px;
+  font-size: 25px;
   color: #ffff;
   text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
   gap: 100px;
@@ -74,16 +74,17 @@
 /* Media queries for responsiveness */
 @media screen and (max-width: 1440px) {
   #header {
-    height: 43rem;
-    gap: 10px;
+    height: 29rem;
+    gap: 5px;
   }
 
   .header-title {
-    font-size: 32px; 
+    font-size: 24px; 
+    margin-bottom: 200px;
   }
 
   .header-title2 {
-    font-size: 28px; 
+    font-size: 18px; 
     gap: 0px;
     margin-bottom: 0;
   }
@@ -91,16 +92,17 @@
 
 @media screen and (max-width: 1024px) {
   #header {
-    height: 42rem;
+    height: 25rem;
     gap: 50px;
   }
 
   .header-title {
-    font-size: 25px; 
+    font-size: 19px; 
+    margin-bottom: 130px;
   }
 
   .header-title2 {
-    font-size: 25px; 
+    font-size: 15px; 
     gap: 0px;
     margin-bottom: 0;
   }

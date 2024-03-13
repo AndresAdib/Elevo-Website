@@ -50,10 +50,14 @@
       gap: 400px;
     }
 
+    .nav-container img {
+      width: 150px;
+    }
+
     .menu {
       width: 20%;
       margin: 10px 0;
-      font-size: 18px;
+      font-size: 16px;
     }
   
     .menu a {
@@ -66,11 +70,11 @@
       justify-content: center;
       padding: 0;
       width: 100%;
-      gap: 200px;
+      gap: 280px;
     }
 
     .nav-container img {
-      width: 180px;
+      width: 120px;
     }
 
     .menu {
@@ -79,7 +83,7 @@
     }
   
     .menu a {
-      font-size: 18px;
+      font-size: 12px;
       padding: 1px;
     }
   }

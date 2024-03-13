@@ -1,8 +1,7 @@
 import React from 'react';
-import { Outlet, Link } from "react-router-dom";
 import "./Footer.css";
 
-export const Footer = () => {
+export const Footer = ({ onShowTerms, onShowPolicy }) => {
 
   document.querySelectorAll('a[href^="#"]').forEach(anchor => {
     anchor.addEventListener('click', function (e) {
@@ -36,7 +35,7 @@ export const Footer = () => {
       </div>
 
       <div className='footer-text'>
-        <p>© ELEVO ADVISORS, LLC. All rights reserved | <a href="/terms" target="_blank" rel="noopener noreferrer">Terms of Service</a> | Privacy Policy</p>
+        <p>© ELEVO ADVISORS, LLC. All rights reserved | <a href="#"  onClick={() => onShowTerms()}>Terms of Service</a> |<a href="#"  onClick={() => onShowPolicy()}>Privacy Policy</a></p>
       </div>
 
     </section>

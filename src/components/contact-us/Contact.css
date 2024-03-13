@@ -185,13 +185,13 @@
 }
 
 
-@media only screen and (max-width: 1024px) {
+@media only screen and (max-width: 1440px) {
     .contact-section {
-        flex-direction: column;
+        
     }
 
     .contact-title {
-        font-size: 20px;
+        font-size: 17px;
     }
 
     .book-text {
@@ -199,17 +199,31 @@
     }
 
     .book-text h4 {
-        font-size: 25px;
+        font-size: 20px;
     }
 
     .book-text p {
-        font-size: 22px;
+        font-size: 18px;
         margin: 0 ;
     }
 
     .book-image img {
-    width: 500px;
-    height: 400px;
+        width: 400px;
+        height: 300px;
+    }
+
+    .box-orange {
+        width: 200px;
+        height: 107px;
+        right: 40px;
+        top: -108px;
+    }
+
+    .box-orange2 {
+        width: 150px;
+        height: 150px;
+        right: 270px;
+        top: -30px;
     }
 
     .contact-container {
@@ -218,20 +232,86 @@
 
     .contact-container h3 {
         text-align: center;
-        font-size: 38px;
+        font-size: 30px;
         margin-top: 0px;
     }
 
+    .contact-icon {
+        width: 40px;
+        height: 40px;
+    }
+
     .contact-form h3{
-        text-align: center;
-        font-size: 25px;
-        margin-left: 0;
+        font-size: 20px;
     }
     
     .contact-form p {
+        font-size: 17px;
+    }
+}
+
+@media only screen and (max-width: 1024px) {
+    .contact-section {
+        
+    }
+
+    .contact-title {
+        font-size: 13px;
+    }
+
+    .book-text {
+        margin-right: 50px;
+    }
+
+    .book-text h4 {
+        font-size: 15px;
+    }
+
+    .book-text p {
+        font-size: 13px;
+        margin: 0 ;
+    }
+
+    .book-image img {
+        width: 300px;
+        height: 250px;
+    }
+
+    .box-orange {
+        width: 150px;
+        height: 107px;
+        right: 20px;
+        top: -108px;
+    }
+
+    .box-orange2 {
+        width: 100px;
+        height: 100px;
+        right: 220px;
+        top: -30px;
+    }
+
+    .contact-container {
+
+    }
+
+    .contact-container h3 {
         text-align: center;
-        font-size: 20px;
-        margin-left: 0px;
+        font-size: 22px;
+        margin-top: 0px;
+    }
+
+    .contact-icon {
+        width: 25px;
+        height: 25px;
+    }
+
+    .contact-form h3{
+        font-size: 16px;
+    }
+    
+    .contact-form p {
+        font-size: 15px;
     }
 }
 
