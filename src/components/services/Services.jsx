@@ -9,43 +9,45 @@ export const Services = () => {
       <h3 className='services-title' data-aos="zoom-in">SERVICES</h3>
 
       <div className='approach-container'>
-        <p className='services-text' data-aos="fade-down">An innovative approach for entrepreneurs + growing companies with ELEVO.</p>
+        <p className='services-text' data-aos="fade-down">An innovative approach for entrepreneurs + growing companies with ELEVO.<br /></p>
         <div className='services-underline'></div>
+        <p className='services-text2'> Aligning our success with the success of your business. <span>Satisfaction Guaranteed!</span></p>
+        <div className='services-underline2'></div>
         <div className='approach-boxes'>
           <div className='approach-box' data-aos="fade-up">
             <h4>a SMART investment</h4>
-            <p>Invest in proactive legal expertise<br />
-            and strategic planning to safeguard<br />
-            your company's future. Dedicated<br />
-            to the principle of long-term<br />
-            relationships, our SGCs are not<br />
-            just advisors—they are your<br />
-            partners in strategic growth. </p>
-          </div>
-          <div className='approach-box' data-aos="fade-down">
-            <h4>CLIENT-CENTERED approach</h4>
-            <p>Our SGC services are not just a cost-<br />saving measure but an investment in<br />
-            your company's future stability and<br />
-            success. We spend the time to know<br />
-            your business with a vested interest in<br />
-            your success and setting the foundation<br />
-            for sustainable growth.</p>
+            <p>Proactive legal expertise
+            and <br />strategic planning to safeguard<br />
+            your company's future.<br /> Dedicated
+            to the principle of <br />long-term
+            relationships, not<br />
+            just lawyers - but a
+            partner in <br />strategic growth. </p>
           </div>
           <div className='approach-box' data-aos="fade-up">
             <h4>CUSTOMIZED flexibility</h4>
             <p>Whether it's a part-time interim<br />
             solution or a long-term strategic<br />
-            partnership, our SGC services<br />
-            adapt to your evolving business<br />
-            landscape. Along with flexible<br />
-            pricing models to fit your budget<br />
-            now and into the future.</p>
+            engagement, we 
+            adapt to your <br />evolving business
+            landscape; along <br />with flexible
+            pricing models to fit <br />your budget
+            now and into <br />the future.</p>
+          </div>
+          <div className='approach-box' data-aos="fade-down">
+            <h4>CLIENT-CENTERED approach</h4>
+            <p>Not just a cost-saving <br />measure but an investment in<br />
+            your company's future stability <br />and
+            future. We invest the time <br />to know
+            your business with a vested <br />interest in
+            your success, setting a <br />foundation
+            for sustainable growth.</p>
           </div>
         </div>
       </div>
 
       <p className='plus' data-aos="slide-down">+</p>
-      <h3 className='issues-text' data-aos="slide-up">Our Strategic General Counsel assist with innovative decision-making<br />
+      <h3 className='issues-text' data-aos="slide-up">Our Strategic Counsel assist with innovative decision-making<br />
         across a wide array of business and legal issues, including:
       </h3>
 

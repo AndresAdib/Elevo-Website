@@ -37,6 +37,16 @@
     margin-bottom: 0;
 }
 
+.services-text2{
+    color: #FFFFFF;
+    text-align: center;
+    font-family: "Montserrat", sans-serif;
+    font-size: 29px;
+    font-weight: 700;
+    margin-top: 30px;
+    margin-bottom: 0;
+}
+
 .elevo {
     position: relative;
     bottom: 3px;
@@ -50,6 +60,14 @@
     height: 3px;
     margin-top: 0;
     margin-left: 230px;
+}
+
+.services-underline2 {
+    background-color: #DE642E;
+    width: 380px;
+    height: 3px;
+    margin-top: 0;
+    margin-left: 850px;
 }
 
 .approach-container {
@@ -75,12 +93,14 @@
     border-radius: 15px;
     margin: 15px 15px 0 15px;
     padding: 5px 40px 5px 40px;
+    line-height: 30px;
 }
 
 .approach-box h4 {
     font-family: "Montserrat", sans-serif;
     font-size: 23px;
     margin-bottom: 0;
+    text-align: center;
 }
 
 .approach-box p {
@@ -168,9 +188,19 @@
         font-size: 20px;
     }
 
+    .services-text2 {
+        font-size: 20px;
+    }
+
+    .services-underline2 {
+        width: 260px;
+        margin-left: 590px;
+    }
+
     .approach-box {
         margin: 15px 10px 0 10px;
         padding: 5px 30px 5px 30px;
+        line-height: 22px;
     }
 
     .approach-box h4 {
@@ -215,6 +245,20 @@
         font-size: 15px;
     }
 
+    .services-text2 {
+        font-size: 15px;
+    }
+
+    .services-underline {
+        width: 190px;
+        margin-left: 480px;
+    }
+
+    .services-underline2 {
+        width: 190px;
+        margin-left: 440px;
+    }
+
     .approach-boxes {
         flex-wrap: wrap;
     }
@@ -222,6 +266,7 @@
     .approach-box {
         margin: 15px 5px 0 5px;
         padding: 5px 20px 5px 20px;
+        line-height: 18px;
     }
 
     .approach-box h4 {
@@ -268,7 +313,15 @@
     }
 
     .services-text {
-        font-size: 18px;
+        font-size: 14px;
+    }
+
+    .services-text2 {
+        font-size: 14px;
+    }
+
+    .services-text2 span{
+        text-decoration: underline 2px #DE642E;
     }
 
     .approach-box {
@@ -304,6 +357,12 @@
         width: 300px;
         margin-left: 120px;
     }
+
+    .services-underline2 {
+        display: none;
+        width: 180px;
+        margin-left: 410px;
+    }
 }
 
 @media only screen and (max-width: 425px) {
@@ -318,6 +377,10 @@
     .approach-box {
         margin: 15px 5px 0 5px;
         padding: 5px 15px 5px 15px;
+    }
+
+    .approach-box br{
+        display: none;
     }
 
     .approach-box h4 {

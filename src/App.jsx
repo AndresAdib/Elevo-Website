@@ -9,6 +9,7 @@ import { Navbar } from './components/header/Navbar';
 import { Team } from './components/team/Team'
 import { Terms } from './components/terms&con/Terms';
 import Privacy from './components/privacy/Privacy';
+import EngagementModels from './components/engagement-models/engagementModels';
 
 
 
@@ -24,7 +25,9 @@ function App() {
       ) : (
       
       <>
+      <div className='menu-fixed'>
         <Navbar />
+      </div>
         <Header />
         <Strategic />
         <Services />

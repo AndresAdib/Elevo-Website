@@ -18,6 +18,10 @@
     padding: 2px 30px 7px 30px;
 }
 
+.orange {
+    
+}
+
 .welcome {
     position: absolute;
     background-color: #F6F6F6;
@@ -86,7 +90,7 @@
 .why-conteiner2 {
     text-align: right;
     margin-right: 90px;
-    margin-left: 50px;
+    margin-left: 40px;
 }
 
 .why-conteiner2 p {
@@ -110,7 +114,7 @@
     text-align: center;
     font-size: 25px;
     font-weight: 500;
-    line-height: 35px;
+    line-height: 25px;
 }
 
 .bold {
@@ -269,7 +273,8 @@
     }
 
     .why-underline {
-        margin-left: 320px;
+        margin-left: 420px;
+        width: 175px;
     }
 }
 
@@ -355,7 +360,7 @@
     }
 
     .why-underline {
-        margin-left: 230px;
+        margin-left: 310px;
     }
 }
 
@@ -447,7 +452,8 @@
     }
 
     .why-underline {
-        margin-left: 110px;
+        width: 100%;
+        margin-left: 0;
     }
 }
 

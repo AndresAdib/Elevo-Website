@@ -6,23 +6,18 @@ export const Strategic = () => {
   return (
     <section id='why'>
 
-      <h3 className='why-title' data-aos="zoom-in">WHY</h3>
+      <h3 className='why-title' >WHY</h3>
       <div className='process'>              
         <div className='process-box'>
           <div className='why-conteiner' data-aos="fade-down">
             <h5>At ELEVO...</h5> 
-            <p>We specialize in providing top-tier general counsel
-            and business advisory services
-            tailored to the unique needs of
-            your company. Delivering
-            innovative and sophisticated
-            legal counsel and strategy to
-            growing companies.</p>
+            <p>We specialize in providing top-tier fractional general counsel and business advisory services tailored to the unique needs of your business. Democratizing access to sophisticated legal services to small and mid-sized companies.
+            </p>
           </div>
         </div>
         <div className='process-box'>
           <div className='image-container'>
-            <div className='welcome' data-aos="fade-in">
+            <div className='welcome'>
               <h2>WELCOME to ELEVO</h2>
               <h3>Lawyers + Entrepreneurs </h3>
             </div>
@@ -34,7 +29,7 @@ export const Strategic = () => {
             <h5>We aren't <br />just legal experts…</h5> 
             <p>We are also entrepreneurs,
             business owners and strategists.
-            So, we get it. Our's is a client-centric 
+            So, we get it. We offer a client-centric 
             approach and innovative business model
             that is changing the game in legal
             services.</p>
@@ -43,10 +38,10 @@ export const Strategic = () => {
       </div>
 
       <div className='question' data-aos="fade-up">
-        <h4 >Why Strategic General Counsel? </h4>
+        <h4 >Why ELEVO?</h4>
         <div className='why-underline'></div>
-        <p>In a rapidly changing business landscape, agility and expertise are paramount. Our Strategic General Counsel
-        provide your business <br />with the seasoned legal and business expertise it needs to navigate growth, risk, and opportunities  in these dynamic times. <span className='bold'>Why Choose ELEVO?</span></p>
+        <p>Every large company in the world has a General Counsel dedicated to protecting it  <br />from risks and facilitating strategic growth. Small and mid-sized companies are missing out. Putting them at a <span className='orange'>competitive disadvantage.</span><br /> Elevo
+        provides the seasoned legal and business expertise you need to navigate risks, opportunities, and growth, without the full time price tag. </p>
       </div>
 
       <div className='business'>
