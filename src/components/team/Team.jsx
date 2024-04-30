@@ -21,7 +21,7 @@ export const Team = () => {
                                 partner in several companies throughout his career with domestic and international operations.
                                 Nick’s motivation and passion over his 25-year career has been to inspire and help people and
                                 organizations maximize potential. He has played leadership roles in a number of community and nonprofit organizations focused on improving the lives and conditions of the communities around him.
-                                Nick has served as Vice Chair of the University of Akron Board of Trustees. He has been a champion of
+                                Nick is the Co-founder and Board Chair of the Ohio Innovation and Technology Associaiton (OITA). Nick has served as Vice Chair of the University of Akron Board of Trustees. He has been a champion of
                                 entrepreneurship on the national level as a Board Member of the National Small Business Association
                                 (NSBA) in Washington, DC, and as Vice Chair of the Council of Smaller Enterprises (COSE), the largest
                                 small business member organization in the country</p>
