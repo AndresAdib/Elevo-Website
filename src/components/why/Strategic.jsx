@@ -11,7 +11,7 @@ export const Strategic = () => {
         <div className='process-box'>
           <div className='why-conteiner' data-aos="fade-down">
             <h5>At ELEVO...</h5> 
-            <p>We specialize in providing top-tier fractional general counsel and business advisory services tailored to the unique needs of your business. Democratizing access to sophisticated legal services to small and mid-sized companies.
+            <p>We specialize in providing top-tier fractional general counsel and business advisory services tailored to the unique needs of your business. Democratizing access to sophisticated legal and advisory services to small and mid-sized companies.
             </p>
           </div>
         </div>
@@ -19,7 +19,7 @@ export const Strategic = () => {
           <div className='image-container'>
             <div className='welcome'>
               <h2>WELCOME to ELEVO</h2>
-              <h3>Lawyers + Entrepreneurs </h3>
+              <h3>Lawyers + Advisors + Entrepreneurs </h3>
             </div>
             <img src='/src/assets/Strategic.jfif' className='image-process'/>
           </div>

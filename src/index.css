@@ -35,6 +35,11 @@
   src: url(/src/fonts/gillsansnova_book.ttf) format('truetype');
 }
 
+@font-face{
+  font-family: 'ProximaNova';
+  src: url(/src/fonts/proximanova_regular.ttf) format('truetype');
+}
+
 * {
   box-sizing: inherit;
 }
@@ -46,7 +51,7 @@ body {
 }
 
 p {
-  font-family: 'GillSansNova';
+  font-family: 'ProximaNova';
 }
 
 h3 {

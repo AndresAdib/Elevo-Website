@@ -13,7 +13,7 @@ export const Services = () => {
         <div className='services-underline'></div>
         <p className='services-text2'> Aligning our success with the success of your business. <span>Satisfaction Guaranteed!</span></p>
         <div className='services-underline2'></div>
-        <div className='approach-boxes'>
+        {/*<div className='approach-boxes'>
           <div className='approach-box' data-aos="fade-up">
             <h4>a SMART investment</h4>
             <p>Proactive legal expertise
@@ -43,10 +43,10 @@ export const Services = () => {
             your success, setting a <br />foundation
             for sustainable growth.</p>
           </div>
-        </div>
+        </div>*/}
       </div>
 
-      <p className='plus' data-aos="slide-down">+</p>
+      {/*<p className='plus' data-aos="slide-down">+</p>*/}
       <h3 className='issues-text' data-aos="slide-up">Our Strategic Counsel assist with innovative decision-making<br />
         across a wide array of business and legal issues, including:
       </h3>

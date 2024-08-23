@@ -40,6 +40,7 @@ export const Form = () => {
       .then(
         () => {
           setEnviado(true);
+          form.current.reset();
           // console.log('SUCCESS!');
         },
         (error) => {
@@ -81,7 +82,7 @@ export const Form = () => {
                     />
                 </div>
                 <div className='form-info'>
-                    <label htmlFor="company">Company (optional)</label>
+                    <label htmlFor="company">Company</label>
                     <input
                     type="text"
                     name="user_company"
