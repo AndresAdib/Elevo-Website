@@ -47,9 +47,10 @@
     width: 470px;
     margin: 30px;
     transition: all 300ms;
+    cursor: pointer;
 }
 
-.card:hover {
+.card.active {
     width: 650px;
 }
 
@@ -71,7 +72,7 @@
     transition: all 400ms;
 }
 
-.card:hover .cover img {
+.card.active .cover img {
     top: 0;
     filter: none;
 }
@@ -122,12 +123,12 @@
     filter: grayscale(100%) drop-shadow(4px 4px 4px #EDEDED);
 }
 
-.card:nth-of-type(7):hover {
+.card:nth-of-type(7).active {
     width: 80%;
 }
 
 
-.card:hover .img_back {
+.card.active .img_back {
     bottom: -40px;
 }
 
@@ -140,7 +141,7 @@
     transition: all 300ms;
 }
 
-.card:hover .biografia {
+.card.active .biografia {
     padding: 40px;
     background-color: #EDEDED;
     border: 1px solid #DE642E;
@@ -153,7 +154,7 @@
     margin-top: 10px;    
 }
 
-.card:hover .biografia h2 {
+.card.active .biografia h2 {
     text-align: center;
     text-decoration: underline #DE642E;
 }
@@ -164,7 +165,7 @@
     margin-bottom: 0;    
 }
 
-.card:hover .biografia p {
+.card.active .biografia p {
     font-size: 22px;
     text-align: left;
     line-height: 30px;
@@ -176,7 +177,7 @@
     transition: all 300ms;
 }
 
-.card:hover .hover-text {
+.card.active .hover-text {
     display: block;
     margin-top: 0;
 }

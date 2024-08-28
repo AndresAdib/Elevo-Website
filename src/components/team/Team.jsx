@@ -1,13 +1,23 @@
 import React from 'react';
+import { useState } from 'react';
 import "./Team.css";
 
 export const Team = () => {
+
+    const [activeCard, setActiveCard] = useState(null);
+
+    const handleCardClick = (index) => {
+        // Alternar la tarjeta activa: si ya está activa, la desactiva; si no, activa la seleccionada
+        setActiveCard(index === activeCard ? null : index);
+    };
+
     return (
         <section id='prueba'>
             
             <h4 className='leader-title' data-aos="slide-up">TEAM</h4>
             <div className='container_cards' data-aos="slide-up">
-                <div className='card'>
+                <div className={`card ${activeCard === 0 ? 'active' : ''}`}
+                    onClick={() => handleCardClick(0)} >
                     <div className="cover">
                         <img src="/src/assets/Nick.png" alt="Nick" />
                         <div className="img_back"></div>
@@ -27,7 +37,8 @@ export const Team = () => {
                         small business member organization in the country</p>
                     </div>
                 </div>
-                <div className='card'>
+                <div className={`card ${activeCard === 1 ? 'active' : ''}`}
+                    onClick={() => handleCardClick(1)}>
                     <div className="cover">
                         <img src="/src/assets/John.png" alt="John" />
                         <div className="img_back"></div>
@@ -51,7 +62,8 @@ export const Team = () => {
                         pursuits and transform ideas into thriving opportunities.</p>
                     </div>
                 </div>
-                <div className='card'>
+                <div className={`card ${activeCard === 2 ? 'active' : ''}`}
+                    onClick={() => handleCardClick(2)}>
                     <div className="cover">
                         <img src="/src/assets/Audrey.png" alt="Audrey" />
                         <div className="img_back"></div>
@@ -67,7 +79,8 @@ export const Team = () => {
                 </div>
 
                 
-                <div className='card'>
+                <div className={`card ${activeCard === 3 ? 'active' : ''}`}
+                    onClick={() => handleCardClick(3)}>
                     <div className="cover">
                         <img src="/src/assets/Craig.png" alt="Nick" />
                         <div className="img_back"></div>
@@ -90,7 +103,8 @@ export const Team = () => {
                         medium-sized businesses dealing with legal challenges that are beyond the scope of their core operations. </p>
                     </div>
                 </div>
-                <div className='card'>
+                <div className={`card ${activeCard === 4 ? 'active' : ''}`}
+                    onClick={() => handleCardClick(4)}>
                     <div className="cover">
                         <img src="/src/assets/Miguel.png" alt="John" />
                         <div className="img_back"></div>
@@ -117,7 +131,8 @@ export const Team = () => {
                         builds organizations focused on true partnership and value creation. </p>
                     </div>
                 </div>
-                <div className='card'>
+                <div className={`card ${activeCard === 5 ? 'active' : ''}`}
+                    onClick={() => handleCardClick(5)}>
                     <div className="cover">
                         <img src="/src/assets/Travis.png" alt="Audrey" />
                         <div className="img_back"></div>
@@ -142,7 +157,8 @@ export const Team = () => {
                         </p>
                     </div>
                 </div>
-                <div className='card'>
+                <div className={`card ${activeCard === 6 ? 'active' : ''}`}
+                    onClick={() => handleCardClick(6)}>
                     <div className="cover">
                         <img src="/src/assets/Francisco.png" alt="Audrey" />
                         <div className="img_back"></div>
