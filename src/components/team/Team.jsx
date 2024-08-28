@@ -164,7 +164,7 @@ export const Team = () => {
                         <div className="img_back"></div>
                     </div>
                     <div className="biografia">
-                        <h2>Francisco Escamilla</h2>
+                        <h2>Francisco Martinez</h2>
                         <p>Francisco is a bicultural entrepreneur with an extensive background in launching and advising 
                         companies in both the USA and Mexico.   
                         </p><p className='hover-text'>His unique background across these two cultures have endowed him with a deep understanding of 
