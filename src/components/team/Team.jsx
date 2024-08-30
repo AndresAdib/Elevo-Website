@@ -7,7 +7,6 @@ export const Team = () => {
     const [activeCard, setActiveCard] = useState(null);
 
     const handleCardClick = (index) => {
-        // Alternar la tarjeta activa: si ya está activa, la desactiva; si no, activa la seleccionada
         setActiveCard(index === activeCard ? null : index);
     };
 

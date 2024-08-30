@@ -201,7 +201,7 @@
         margin: 10px;
     }
 
-    .card:hover {
+    .card.active {
         width: 450px;
     }
 
@@ -213,7 +213,7 @@
         font-size: 13px;
     }
 
-    .card:hover .biografia p {
+    .card.active .biografia p {
         font-size: 15px;
     }
 
@@ -233,7 +233,7 @@
         top: 110px;
     }
 
-    .card:hover .cover img {
+    .card.active .cover img {
         top: 90px;
         filter: none;
     }
@@ -264,7 +264,7 @@
         margin: 10px;
     }
 
-    .card:hover {
+    .card.active{
         width: 450px;
     }
 
@@ -276,7 +276,7 @@
         font-size: 9px;
     }
 
-    .card:hover .biografia p {
+    .card.active .biografia p {
         font-size: 10px;
         line-height: 19px;
     }
@@ -297,7 +297,7 @@
         top: 145px;
     }
 
-    .card:hover .cover img {
+    .card.active .cover img {
         top: 135px;
         filter: none;
     }
@@ -327,7 +327,7 @@
         font-size: 15px;
     }
 
-    .card:hover .biografia p {
+    .card.active .biografia p {
         font-size: 16px;
     }
 }
