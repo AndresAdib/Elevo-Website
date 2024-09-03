@@ -10,6 +10,7 @@ import { Team } from './components/team/Team'
 import { Terms } from './components/terms&con/Terms';
 import Privacy from './components/privacy/Privacy';
 import EngagementModels from './components/engagement-models/engagementModels';
+import { NewTeam } from './components/team/NewTeam';
 
 
 
@@ -31,7 +32,7 @@ function App() {
         <Header />
         <Strategic />
         <Services />
-        <Team />
+        <NewTeam />
         <Contact />
         <Footer onShowTerms={() => setShowTerms(true)}/>
       </>

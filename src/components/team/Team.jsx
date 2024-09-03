@@ -1,5 +1,6 @@
 import React from 'react';
 import { useState } from 'react';
+import Slider from "react-slick";
 import "./Team.css";
 
 export const Team = () => {
@@ -9,6 +10,14 @@ export const Team = () => {
     const handleCardClick = (index) => {
         setActiveCard(index === activeCard ? null : index);
     };
+
+    var settings = {
+        dots: true,
+        infinite: true,
+        speed: 500,
+        slidesToShow: 1,
+        slidesToScroll: 1,
+      };
 
     return (
         <section id='prueba'>

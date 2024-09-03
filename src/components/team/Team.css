@@ -1,23 +1,12 @@
 #prueba {
-    display: grid;
-    place-items: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
     margin-bottom: 150px;
 }
 
-.team-title {
-    font-family: 'Antonio Bold';
-    text-align: center;
-    font-size: 25px;
-    font-weight: 400;
-    color: #FFFFFF;
-    background-color: #DE642E;
-    border-radius: 20px;
-    letter-spacing: 3px;
-    margin-bottom: 50px;
-    padding: 3px 15px 7px 15px;
-}
-
 .leader-title {
+    width: 20%;
     font-family: "Montserrat", sans-serif;
     text-align: center;
     font-size: 25px;
@@ -31,50 +20,43 @@
 }
 
 .container_cards {
+    width: 80%;
     margin: auto;
-    padding: 0px 0 100px 0;
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center; 
+    padding: 0px 0 70px 0;
     border-radius: 25px;
     border-top: 5px solid #DE642E;
     border-bottom: 5px solid #DE642E;
-    border-left: 5px solid #EDEDED;
-    border-right: 5px solid #EDEDED;
 }
 
 .card {
-    width: 470px;
-    margin: 30px;
-    transition: all 300ms;
-    cursor: pointer;
-}
-
-.card.active {
-    width: 650px;
+    width: 50%;
 }
 
 .card .cover {
-    width: 100%;
-    height: 250px;
+    display: flex;
     position: relative;
     overflow: hidden;
 }
 
 .card .cover img {
-    width: 250px;
+    width: 300px;
     display: block;
     margin: auto;
     position: relative;
-    top: 40px;
+    top: 0px;
     z-index: 1;
     filter: drop-shadow(5px 15px 4px rgba(0,0,0.5));
     transition: all 400ms;
 }
 
-.card.active .cover img {
-    top: 0;
-    filter: none;
+.card .cover h2 {
+    font-family: "Montserrat", sans-serif;
+    right: 100px;
+    font-size: 50px;
+    margin: auto;
+    position: relative;
+    top: 90px;
+    z-index: 1;
 }
 
 .card .img_back {
@@ -90,96 +72,28 @@
 
 .card:nth-of-type(1) .img_back {
     background-image: url(/src/assets/fondo-img.avif);
-    filter: grayscale(100%) drop-shadow(4px 4px 4px #EDEDED);
-}
-
-.card:nth-of-type(2) .img_back {
-    background-image: url(/src/assets/fondo-img.avif);
-    filter: grayscale(100%) drop-shadow(4px 4px 4px #EDEDED);
-}
-
-.card:nth-of-type(3) .img_back {
-    background-image: url(/src/assets/fondo-img.avif);
-    filter: grayscale(100%) drop-shadow(4px 4px 4px #EDEDED);
-}
-
-.card:nth-of-type(4) .img_back {
-    background-image: url(/src/assets/fondo-img.avif);
-    filter: grayscale(100%) drop-shadow(4px 4px 4px #EDEDED);
-}
-
-.card:nth-of-type(5) .img_back {
-    background-image: url(/src/assets/fondo-img.avif);
-    filter: grayscale(100%) drop-shadow(4px 4px 4px #EDEDED);
-}
-
-.card:nth-of-type(6) .img_back {
-    background-image: url(/src/assets/fondo-img.avif);
-    filter: grayscale(100%) drop-shadow(4px 4px 4px #EDEDED);
-}
-
-.card:nth-of-type(7) .img_back {
-    background-image: url(/src/assets/fondo-img.avif);
-    filter: grayscale(100%) drop-shadow(4px 4px 4px #EDEDED);
-}
-
-.card:nth-of-type(7).active {
-    width: 80%;
-}
-
-
-.card.active .img_back {
-    bottom: -40px;
+    /*filter: grayscale(100%) drop-shadow(4px 4px 4px #EDEDED);*/
 }
 
 .card .biografia {
+    text-align: center;
+    font-family: 'ProximaNova';
+    font-size: 20px;
+    line-height: 27px;
+    margin-bottom: 0;   
     background: white;
-    margin-top: -10px;
-    padding: 20px;
+    margin-top: -20px;
+    padding: 50px;
     border: 2px solid #EDEDED;
     border-radius: 0 0 20px 20px;
     transition: all 300ms;
 }
 
-.card.active .biografia {
-    padding: 40px;
-    background-color: #EDEDED;
-    border: 1px solid #DE642E;
-}
-
 .card .biografia h2 {
     font-family: "Montserrat", sans-serif;
-    font-size: 23px;
+    font-size: 26px;
     text-align: center;
     margin-top: 10px;    
-}
-
-.card.active .biografia h2 {
-    text-align: center;
-    text-decoration: underline #DE642E;
-}
-
-.card .biografia p {
-    font-size: 18px;
-    margin-top: 10px;
-    margin-bottom: 0;    
-}
-
-.card.active .biografia p {
-    font-size: 22px;
-    text-align: left;
-    line-height: 30px;
-    font-weight: 400;
-}
-
-.hover-text {
-    display: none;
-    transition: all 300ms;
-}
-
-.card.active .hover-text {
-    display: block;
-    margin-top: 0;
 }
 
 
